@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-layout {
+    /* border: 2px solid red; */
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+#main-container {
+    /* border: 2px solid rgb(22, 180, 180); */
+    min-height: 70vh;
+    position: relative;
+    top: 5pc;
+    margin: 0px 3pc;
+    background-color: white;
+}
+
+#main-container::before {
+    content: "";
+    background: url(/images/container.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    /* border: 2px solid black; */
+}
+
+#main-container h1 {
+    position: absolute;
+    top: 1pc;
+    left: 33pc;
+    width: 50%;
+    color: #ffeb3b;
+    font-family: 'Langar', cursive;
+}
+
+#main-container p {
+    position: absolute;
+    top: 3pc;
+    left: 17pc;
+    width: 50%;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 23px 23px;
+}
+
+
+/* Navbar related CSS  */
+
+#navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    height: 3pc;
+    position: relative;
+    top: 5pc;
+    width: 93%;
+    left: 3pc;
+    background-color: white;
+    font-family: 'Nerko One', cursive;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    margin: 9px 24px;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+
+/* Footer related Css  */
+
+footer {
+    background-color: white;
+    color: black;
+    border-bottom-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    position: relative;
+    top: 5pc;
+    width: 93%;
+    left: 3pc;
+    height: 2pc;
+}
+
+footer p {
+    padding: 7px;
+}
+
+.about {
+    background-color: white;
+    height: 19pc;
+    width: 89%;
+    /* border: 2px solid crimson; */
+    position: absolute;
+    top: 2pc;
+    margin: 3pc;
+    left: 1pc;
+    border-radius: 30px;
+}
