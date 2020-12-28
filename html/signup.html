@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial | Home</title>
     <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
 </head>
 
 <body>
@@ -13,7 +15,7 @@
         <nav id="navbar">
             <ul>
                 <li><a href="/html/home.html">Home</a></li>
-                <li><a href="#">Tutorial</a></li>
+                <li><a href="/html/tutorial.html">Tutorial</a></li>
                 <li><a href="#">Quizes</a></li>
                 <li><a href="/html/about.html">About</a></li>
             </ul>
@@ -23,24 +25,50 @@
             </ul>
         </nav>
         <div id="main-container">
-            <form action="#">
+            <img src="../images/photo-1516305954067-e2ec597e702f.jfif" alt="">
+            <form action="/html/tutorial.html">
                 <div class="form">
 
-                    <label for="uname"> Name</label>
-                    <input type="text" placeholder="John Reid" required>
-                    <label for="uname"> Username</label>
-                    <input type="text" placeholder="John@xyz.com" required>
-                    <label for="password">Password</label>
-                    <input type="password" placeholder="**********" required>
-                    <button type="submit">Signup</button>
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember">Remember me
-                    </label>
+                    <div class="innerform">
+                        <div class="inputWithIcon">
 
-                    <button type="button" class="cancelbtn">Cancel</button>
-                    <span class="psw">Forgot <a href="#">password?</a></span>
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="John Snow  ">
+                            <hr>
+                            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        <div class="inputWithIcon">
 
-                </div>
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="JohnSnow@xyz.com">
+                            <hr>
+                            <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        <div class="inputWithIcon">
+
+                            <label for="uname" class="label">Username</label>
+                            <input type="text" placeholder="John@xyz.com" required>
+                            <hr>
+                            <i class="fa fa-id-card" aria-hidden="true"></i>
+                    </div>
+                    <div class="inputWithIcon">
+                        
+                        <label for="password" class="label">Password</label>
+                        <input type="password" placeholder="**********" required>
+                        <hr>
+                        <i class="fa fa-key icon" ></i>
+                        </div>
+                        <div class="button">
+
+                            <button type="submit">Submit</button>
+
+
+                        </div>
+                        <span class="psw"><a href="/html/login.html">Already have an account Login</a></span>
+                    </div>
+
+
+
             </form>
         </div>
         <footer>
@@ -48,5 +76,6 @@
         </footer>
     </div>
 </body>
+
 
 </html>

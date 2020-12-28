@@ -23,7 +23,7 @@
 
 #main-container::before {
     content: "";
-    background: url(/images/container.jpg) no-repeat center center/cover;
+    background: url(/images/photo-1516305954067-e2ec597e702f.jfif) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -36,7 +36,7 @@
     top: 6pc;
     left: 25pc;
     width: 50%;
-    color: #ffeb3b;
+    color: black;
     font-family: 'Langar', cursive;
 }
 
@@ -45,7 +45,7 @@
     top: 9pc;
     left: 36pc;
     width: 50%;
-    color: #ffeb3b;
+    color: black;
     font-family: 'Langar', cursive;
 }
 

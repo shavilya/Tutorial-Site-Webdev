@@ -3,109 +3,160 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
-#main-layout {
-    /* border: 2px solid red; */
+#main-layout{
+    background-color: #becbd1;
     min-height: 100vh;
-    background-color: bisque;
 }
 
-#main-container {
-    /* border: 2px solid rgb(22, 180, 180); */
-    min-height: 70vh;
+#main-container{
+    min-height: 69vh;
+    background-color: black;
+    width: 93%;
     position: relative;
-    top: 5pc;
-    margin: 0px 3pc;
-    background-color: white;
+    top: 7pc;
+    left: 3pc;
 }
 
-#main-container::before {
-    content: "";
-    background: url(/images/container.jpg) no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+#main-container img{
+    position: relative;
     top: 0px;
-    /* border: 2px solid black; */
+    left: 0pc;
+    width: 100%;
+    height: 28pc;
+    /* z-index: -1; */
 }
+
+
 
 
 /* Form related css */
-
-.form {
-    font-family: 'Merriweather', serif;
-    height: 17pc;
-    width: 40%;
+.form{
+    height: 24pc;
+    width: 51pc;
     position: absolute;
-    top: 6pc;
-    left: 1pc;
+    top: 2pc;
+    left: 14pc;
+    background-color: #ecf0f1;
+    border-radius: 23px;
+    border: none;
+    display: flex;
+    
+    align-items: center;
+    
+    padding: 12px 40px;
+}
+
+.form::before{
+    content: "";
+    background: url(../images/colourful-illustration-programmer-working_23-2148281410-removebg-preview.png) no-repeat center center/cover;
+    height: 295px;
+    width: 53%;
+    position: relative;
+    top: 0px;
+}
+
+.innerform{
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 2px solid red; */
-    background-color: black;
-    border-radius: 23px;
-    padding: 22px;
-    margin: 12px;
-    opacity: 0.9;
+    padding: 12px 20px;
 }
 
+
 button {
-    background-color: #03A9F4;
+    background-color: #00BCD4;
     color: white;
     padding: 5px 8px;
-    margin: 3px 0;
+    margin: 3px 12px;
     font-size: 1.2rem;
+    font-style: italic;
     margin-top: 9px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 38%;
     font-family: 'Roboto Condensed', sans-serif;
     outline: none;
+    border-radius: 23px;
 }
 
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 input[type=text],
 input[type=password] {
+    background-color: #ecf0f1;
     color: black;
     padding: 5px 8px;
     margin: 2px 0;
     border: none;
     cursor: pointer;
     width: 100%;
+    text-indent: 45px ;
     outline: none;
+
 }
 
 label {
-    color: white;
+    color: black;
     font-weight: 400;
     margin: 3px;
 }
 
+
+
 span .psw a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 span {
-    color: white;
+    color: black;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+span a{
+    text-decoration: none;
+}
+span a:hover{
+    color: rgb(201, 46, 7);
+    font-size: 1.1rem;
+}
+
+.fa-user {
+    position: absolute;
+    top: 122px;
+    left: 25.6pc;
+}
+
+
+.fa-key{
+    position: absolute;
+    top: 172px;
+    left: 25.7pc;
 }
 
 
 /* Navbar related CSS  */
 
 #navbar {
-    /* border: 2px solid red; */
-    display: flex;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-    height: 3pc;
-    position: relative;
-    top: 5pc;
-    width: 93%;
-    left: 3pc;
-    background-color: white;
-    font-family: 'Nerko One', cursive;
+        /* border: 2px solid red; */
+        display: flex;
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
+        height: 3pc;
+        position: absolute;
+        top: 4pc;
+        width: 93%;
+        left: 3pc;
+        background-color: white;
+        font-family: 'Nerko One', cursive
 }
 
 #navbar ul {
@@ -134,12 +185,13 @@ footer {
     color: black;
     border-bottom-right-radius: 23px;
     border-bottom-left-radius: 23px;
-    position: relative;
-    top: 5pc;
-    width: 93%;
-    left: 3pc;
+    position: absolute;
+    top: 28pc;
+    width: 100%;
+    left: 0pc;
     height: 2pc;
 }
+
 
 footer p {
     padding: 7px;

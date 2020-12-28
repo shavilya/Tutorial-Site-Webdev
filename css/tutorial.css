@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -19,43 +18,61 @@
     position: relative;
     top: 5pc;
     margin: 0px 3pc;
-    background-color: white;
+    background-color: rgb(169, 170, 241);
 }
-#main-container img{
-    position: absolute;
-    left: 0.3px;
-    height: 26pc;
-    width: 100%;
-    top: 0px;
-}
-/* #main-container::before {
+
+
+/* 
+ #main-container::before {
     content: "";
-    background: url(/images/photo-1516305954067-e2ec597e702f.jfif) no-repeat center center/cover;
+    background: url(/images/container.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0px;
-     border: 2px solid black; 
-
-*/
+    /* border: 2px solid black; */
 
 #main-container h1 {
+    /* border: 2px solid red; */
     position: absolute;
-    top: 1pc;
-    left: 7pc;
+    top: 4pc;
     width: 50%;
-    color: #ffeb3b;
+    display: flex;
+    justify-content: center;
+    left: 21pc;
+    color: white;
     font-family: 'Langar', cursive;
 }
 
-#main-container p {
+#flex {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 3pc;
-    left: 5pc;
-    width: 50%;
+    top: 6pc;
+    height: 20pc;
+    width: 70pc;
+    left: 3pc;
+    margin: 20px 40px;
+}
+
+.cards {
+    height: 47px;
+    /* border: 2px solid red; */
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
+    margin: 23px;
+    background-color: white;
+}
+
+.cards a {
+    text-decoration: none;
     color: black;
-    font-family: 'Nanum Gothic', sans-serif;
-    margin: 23px 23px;
+    cursor: pointer;
 }
 
 
@@ -110,51 +127,4 @@ footer {
 
 footer p {
     padding: 7px;
-}
-
-/* .about {
-    background-color: white;
-    height: 19pc;
-    width: 89%;
-    border: 2px solid crimson; 
-    position: absolute;
-    top: 2pc;
-    margin: 3pc;
-    left: 1pc;
-    border-radius: 30px;
-} 
-
-.about::before{
-    
-    content: "";
-    background: url(../images/website-creator-concept-illustration_114360-2766-removebg-preview.png) no-repeat center center/cover;
-    position: absolute;
-    top: 0px;
-    height: 19pc;
-     border: 2px solid red; 
-    width: 30%;
-} 
-
-*/
-
-.about{
-    /* border: 2px solid red; */
-    position: relative;
-    height: 22pc;
-    width: 73%;
-    left: 8pc;
-    top: 2pc;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center;  */
-    
-}
-
-.about img{
-    height: 25pc;
-    width: 36%;
-    position: absolute;
-    top: 0pc;
-    right: 2px;
 }

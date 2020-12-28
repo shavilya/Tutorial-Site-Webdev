@@ -7,7 +7,7 @@
 }
 
 #main-layout{
-    background-color: #becbd1;
+    background-color: #009688;
     min-height: 100vh;
 }
 
@@ -38,7 +38,7 @@
     width: 51pc;
     position: absolute;
     top: 2pc;
-    left: 14pc;
+    left: 2pc;
     background-color: #ecf0f1;
     border-radius: 23px;
     border: none;
@@ -51,7 +51,7 @@
 
 .form::before{
     content: "";
-    background: url(../images/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971-removebg-preview.png) no-repeat center center/cover;
+    background: url(../images/colourful-illustration-programmer-working_23-2148281410-removebg-preview.png) no-repeat center center/cover;
     height: 295px;
     width: 53%;
     position: relative;
@@ -67,6 +67,7 @@
 }
 
 
+
 button {
     background-color: #00BCD4;
     color: white;
@@ -77,16 +78,15 @@ button {
     margin-top: 9px;
     border: none;
     cursor: pointer;
-    width: 38%;
+    width: 23%;
     font-family: 'Roboto Condensed', sans-serif;
     outline: none;
     border-radius: 23px;
 }
 
-.button{
+button .button{
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 input[type=text],
 input[type=password] {
@@ -101,14 +101,23 @@ input[type=password] {
     outline: none;
 
 }
-
+input[type=text]::before{
+    content: "";
+    background: url(../images/username-removebg-preview.png) no-repeat;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    border: 2px solid red;
+}
 label {
     color: black;
     font-weight: 400;
     margin: 3px;
 }
 
-
+.form .label{
+    text-transform: uppercase;
+}
 
 span .psw a {
     text-decoration: none;
@@ -128,29 +137,6 @@ span a:hover{
     color: rgb(201, 46, 7);
     font-size: 1.1rem;
 }
-
-.fa-user {
-    position: absolute;
-    top: 71px;
-    left: 25.6pc;
-}
-
-.fa-envelope{
-    position: absolute;
-    top: 122px;
-    left: 25.6pc;
-}
-.fa-key{
-    position: absolute;
-    top: 219px;
-    left: 25.7pc;
-}
-.fa-id-card{
-    position: absolute;
-    top: 170px;
-    left: 25.7pc;
-}
-
 /* Navbar related CSS  */
 
 #navbar {

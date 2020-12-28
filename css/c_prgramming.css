@@ -1,6 +1,49 @@
+.left{
+    padding: 12px;
+    height: 400px;
+    width: 300px;
+    border: solid 1px black;
+    position: fixed;
+    margin: 12px 20px;
+}
+.right{
+    margin-left: 340px;
+    margin-right: 40px;
+    padding: 12px;
+    border: solid 1px black;
+    top: 13px;
+    position: relative;
+}
+
+#h{
+    padding: 10px 20px;
+}
+.left p{
+    color: blue;
+    display: flex;
+    padding: 7px;
+}
+.onclick{
+    cursor: pointer;
+
+}
+ .right h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ****************************************** */
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -21,41 +64,34 @@
     margin: 0px 3pc;
     background-color: white;
 }
-#main-container img{
-    position: absolute;
-    left: 0.3px;
-    height: 26pc;
-    width: 100%;
-    top: 0px;
-}
+
 /* #main-container::before {
     content: "";
-    background: url(/images/photo-1516305954067-e2ec597e702f.jfif) no-repeat center center/cover;
+    background: url(/images/container.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0px;
-     border: 2px solid black; 
+    border: 2px solid black; 
+}
 
-*/
-
+ */
 #main-container h1 {
     position: absolute;
-    top: 1pc;
-    left: 7pc;
+    top: 6pc;
+    left: 25pc;
     width: 50%;
     color: #ffeb3b;
     font-family: 'Langar', cursive;
 }
 
-#main-container p {
+#main-container h3 {
     position: absolute;
-    top: 3pc;
-    left: 5pc;
+    top: 9pc;
+    left: 36pc;
     width: 50%;
-    color: black;
-    font-family: 'Nanum Gothic', sans-serif;
-    margin: 23px 23px;
+    color: #ffeb3b;
+    font-family: 'Langar', cursive;
 }
 
 
@@ -110,51 +146,4 @@ footer {
 
 footer p {
     padding: 7px;
-}
-
-/* .about {
-    background-color: white;
-    height: 19pc;
-    width: 89%;
-    border: 2px solid crimson; 
-    position: absolute;
-    top: 2pc;
-    margin: 3pc;
-    left: 1pc;
-    border-radius: 30px;
-} 
-
-.about::before{
-    
-    content: "";
-    background: url(../images/website-creator-concept-illustration_114360-2766-removebg-preview.png) no-repeat center center/cover;
-    position: absolute;
-    top: 0px;
-    height: 19pc;
-     border: 2px solid red; 
-    width: 30%;
-} 
-
-*/
-
-.about{
-    /* border: 2px solid red; */
-    position: relative;
-    height: 22pc;
-    width: 73%;
-    left: 8pc;
-    top: 2pc;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center;  */
-    
-}
-
-.about img{
-    height: 25pc;
-    width: 36%;
-    position: absolute;
-    top: 0pc;
-    right: 2px;
 }

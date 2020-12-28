@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tutorial | Home</title>
+	<link rel="stylesheet" href="/css/c_prgramming.css">
+
+
+</head>
+
+<body>
+	<div id="main-layout">
+		<nav id="navbar">
+			<ul>
+				<li><a href="/html/home.html">Home</a></li>
+				<li><a href="/html/tutorial.html">Tutorial</a></li>
+				<li><a href="#">Quizes</a></li>
+				<li><a href="/html/about.html">About</a></li>
+			</ul>
+			<ul>
+				<li><a href="/html/login.html">Login</a></li>
+				<li><a href="/html/signup.html">Signup</a></li>
+			</ul>
+		</nav>
+		<div id="main-container">
+			<div class="left">
+				<p class="onclick " onclick="display()">Introduction</p>
+				<hr>
+				<p class="onclick " onclick="display1()">Variables and Keywords</p>
+				<hr>
+				<p class="onclick " onclick="display2()">Basic Structure</p>
+				<hr>
+				<p class="onclick " onclick="display3()">C Data Types</p>
+				<hr>
+				<p class="onclick " onclick="display4()">C Input/Output</p>
+				<hr>
+				<p class="onclick " onclick="display5()">C Operators</p>
+				<hr>
+				<p class="onclick " onclick="display6()">C Introduction Examples</p>
+				<hr>
+			</div>
+			<div class="right">
+				
+				<p id="h">
+					C Programming
+				</p>
+			</div>
+
+			<script type="text/javascript">
+			function display() {
+				document.getElementById("h").innerHTML = "<b> C-language Introduction</b> <br><br> C is a procedural programming language. It was initially developed by Dennis Ritchie in the year 1972. It was mainly developed as a system programming language to write an operating system. The main features of C language include low-level access to memory, a simple set of keywords, and clean style, these features make C language suitable for system programmings like an operating system or compiler development.<br>Many later languages have borrowed syntax/features directly or indirectly from C language. Like syntax of Java, PHP, JavaScript, and many other languages are mainly based on C language. C++ is nearly a superset of C language (There are few programs that may compile in C, but not in C++).<br><br><b>Beginning with C programming:</b><br><ol><li>Structure of C language<br>After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.</li><li>Writing first program code<br>Line 1: [ #include stdio.h ]<br>Line :2 [ int main(void) ]<br>Line 3: [ printf(“GeeksQuiz”); ]<br>Line 4 :[ return 0; ] </li><li>How to excecute the above program:<br>Inorder to execute the above program, we need to have a compiler to compile and run our programs.For Linux, gcc comes bundled with the linux,  Code Blocks can also be used with Linux.</li></ol> "
+			}
+			
+			function display1() {
+				document.getElementById("h").innerHTML = "<b>Variables and Keywords in C </b> <br> <br>A <b>variable</b> in simple terms is a storage place which has some memory allocated to it. Basically, a variable used to store some form of data. Different types of variables require different amounts of memory, and have some specific set of operations which can be applied on them.<br><br><b>Variable Declaration:</b> <br><br>A typical variable declaration is of the form:<br>type variable_name;<br>or for multiple variables:<br>type variable1_name, variable2_name, variable3_name;"
+			}
+			function display2() {
+				document.getElementById("h").innerHTML = "<code><b>#include<iostream><b><br><b>using namespace std;<br><b>int main()<b><br><b>{<br>};<b><br></code>"
+				}
+				</script>
+		</div>
+		<footer>
+            <p>&copy; Tutorial Site & Co.</p>
+		</footer>
+	</div>
+</body>
+
+</html>
