@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -123,6 +124,8 @@ span {
 }
 span a{
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 span a:hover{
     color: rgb(201, 46, 7);

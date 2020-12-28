@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -18,61 +19,14 @@
     position: relative;
     top: 5pc;
     margin: 0px 3pc;
-    background-color: rgb(169, 170, 241);
-}
-
-
-/* 
- #main-container::before {
-    content: "";
-    background: url(/images/container.jpg) no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    /* border: 2px solid black; */
-
-#main-container h1 {
-    /* border: 2px solid red; */
-    position: absolute;
-    top: 4pc;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    left: 21pc;
-    color: white;
-    font-family: 'Langar', cursive;
-}
-
-#flex {
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 6pc;
-    height: 20pc;
-    width: 70pc;
-    left: 3pc;
-    margin: 20px 40px;
-}
-
-.cards {
-    height: 47px;
-    /* border: 2px solid red; */
-    width: 145px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 23px;
-    margin: 23px;
     background-color: white;
 }
-
-.cards a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+#main-container .image{
+    position: absolute;
+    left: 0.3px;
+    height: 29pc;
+    width: 100%;
+    top: 0px;
 }
 
 
@@ -127,4 +81,39 @@ footer {
 
 footer p {
     padding: 7px;
+}
+
+.about{
+    /* border: 2px solid red; */
+    position: relative;
+    height: 29pc;
+    width: 100%;
+    left: 2pc;
+    top: 1pc;
+    
+}
+
+.about h1 {
+    position: absolute;
+    top: 6pc;
+    left: 38pc;
+    width: 50%;
+    color: #010101;
+    font-family: 'Langar', cursive;
+}
+
+.about p {
+    position: absolute;
+    top: 9pc;
+    left: 34pc;
+    width: 50%;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 23px 23px;
+    padding: 0px 50px;
+}
+
+.about img {    
+    height: 25pc;
+    width: 50%;
 }
